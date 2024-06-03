@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+.header{
+   min-height: 100vh;
+   width: 100%;
+   background: linear-gradient(rgba(0,0,0,0.3)rgba(0,0,0,0.3));
+   background-image: url("images/back-1.jpg");
+   background-size:cover ;
+   background-position: center; 
+ 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 7%;
+}
+.navbar-white{
+    background-color: #e72e77;
+    box-shadow: 0.5;
+}
+.logo{
+    width:250px ;
+    height: 100px;
+    cursor: pointer;
+  
+    
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin:10px 30px;
+
+}
+.nav-links li a{
+    text-decoration: none;
+    color:#fff
+}
+.register-btn{
+    background: #fff;
+    color:#000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.search-box{
+    padding:0 7% ;
+}
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 18%;
+    letter-spacing: 0.2;
+    margin-bottom: 20px;
+}
+.search-box {
+    margin: 5rem 0 0 0;
+    color: #fff;
+    text-align: center;
+}
+
+
+.search-box p {
+    font-size: 1.8rem;
+    margin: .5rem 0;
+}
+
+.search-field {
+    width: 20rem;
+    height: 4.0rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e72e77;
+}
+ .btn { 
+    background: #ff5361;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5;
+    font-weight: 600;
+   
+ }
+ /*----------------------------services---------------------------*/
+ .container{
+    padding: 0 7%;
+ }
+ .sub-title{
+    margin: 100px 0 20px;
+    font-size: 3.2vw;
+    font-weight: 500;
+    color: #e72e77;
+    text-align: center;
+
+ }
+ .services{
+    display:grid;
+   grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+ }
+ .services div img{
+    width: 100%;
+    border: #fff;
+    border-radius: 10px;
+    box-shadow: 0.5;
+    grid-gap: 50px;
+   /*padding: 25px 25px;*/
+   
+ }
+ .services div{
+    position: relative;
+ }
+ .services div span{
+    position:absolute;
+    top:40%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2.2vw;
+ }
+ /*-----------------------------------Popular venues---------------------*/
+ .popular{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px;
+    margin-bottom: 30px;
+
+ }
+ .popular div img{
+    width: 100%;
+    border-radius: 10px;
+    
+
+ }
+ .popular h3{
+    font-size: 1.5vw;
+    font-weight: 600;
+ }
+ .popular h3+p{
+    font-size: 1.2vw;
+    font-weight: 400;
+ }
+.button{
+    background: #ff5361;
+    color:#fff;
+    width:100px;
+    height: 25px;
+}
+.button:hover{
+    background-color: green;
+} 
+/*----------------------------about-msg--------------------------------*/
+.about-msg{
+   text-align: center;
+   margin: 80px 0 ;
+   color: #333;
+   font-size: 17px; 
+   margin-left: 25px;
+   margin-right: 25px;
+   
+}
+.about-msg h2{
+    margin-bottom: 10px;
+}
+/* ------------------------------footer----------------------------------*/
+.footer{
+    margin: 80px 0 10 px;
+    text-align: center;
+
+}
+.footer a {
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+} 
+.footer hr{
+    background:#999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px;
+}
+ 
+
+
+
+
